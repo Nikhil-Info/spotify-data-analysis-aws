@@ -47,6 +47,7 @@ Below is the high-level architecture of the project:
 2. **ETL with AWS Glue**:
    - Create a Glue job to clean and transform the raw data.
    - Store the processed data in another S3 bucket (e.g., `s3://spotify-processed-data`).
+   <img width="885" alt="Glue ETL" src="https://github.com/user-attachments/assets/f5f64e5d-c2f6-44ee-9561-158496bbe267" />
 
 3. **Schema Inference with Glue Crawler**:
    - Use a Glue Crawler to infer the schema of the processed data and create a metadata table in the **AWS Glue Data Catalog**.
@@ -85,6 +86,14 @@ The `limit` specifies the number of records you want to retrieve. In the example
 ```sql
 SELECT * FROM datawarehouse LIMIT 12;
 ```
+<img width="1023" alt="athena sql output" src="https://github.com/user-attachments/assets/a603e472-dc23-49b1-becd-edc7bd70d61b" />
+
+
+---
+
+## **Quicksight**
+<img width="788" alt="dashboard 1" src="https://github.com/user-attachments/assets/c4ee6fff-2d63-41b5-8833-96709d7745e0" />
+
 
 ---
 
