@@ -7,7 +7,7 @@ This project analyzes Spotify data using AWS services like **S3**, **Glue**, **A
 ## **Project Overview**
 The project involves:
 1. **Extracting Data**:  
-   - Data is sourced from **Kaggle** (an open-source platform) - Link![image](https://github.com/user-attachments/assets/024fd7c1-65d8-452e-a3f8-7f13618ec2bf)
+   - Data is sourced from **Kaggle** - [Link](https://shorturl.at/kE142)
 .
 2. **Staging Raw Data**:  
    - The raw data is stored in an **S3 bucket** for scalable and cost-effective storage.
@@ -27,7 +27,7 @@ The project involves:
 ## **Architecture**
 Below is the high-level architecture of the project:
 
-![Architecture Diagram](architecture.png)
+<img width="1041" alt="architecture" src="https://github.com/user-attachments/assets/787f650a-ca3c-4b86-a66c-48b05723dbaf" />
 
 ---
 
