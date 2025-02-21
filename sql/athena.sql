@@ -1,0 +1,1 @@
+select * from datawarehouse limit 12;
